@@ -1,0 +1,20 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure full height */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-image: url('../assets/background-image.jpg');
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
